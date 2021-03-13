@@ -6,6 +6,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   min-width: 100vw;
+  width: 90%;
   max-height: 100vh;
   background-image: linear-gradient(to right, #714079, #e33078);
 }
@@ -24,26 +25,27 @@ body {
   width: 30%;
   height: auto;
   background: #f2f2f2;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
   box-shadow: 1px 1px 4px #fff;
+  text-align: justify;
+
 }
 .form_inner h5 {
   text-align: center;
   font-size: 18px;
-  margin-bottom: 20px;
-  margin-top: 30px;
+  margin-bottom: 30px;
+
   color: #734079;
 }
-
-.form_inner #fname,
-#lname. {
-  margin-top: 10px;
-  margin-left: 30px;
+.form_inner a {
   text-align: justify;
+  margin-top: 40px;
+  margin-left: 200px;
 }
+
 label.name,
 .email,
 .division,
@@ -86,6 +88,7 @@ label.name,
 #division {
   margin-left: 72px;
   margin-bottom: 10px;
+  text-align: center;
 
   border: none;
   border-radius: 5px;
@@ -129,10 +132,10 @@ label.name,
   text-align: center;
   margin-top: 20px;
   margin-top: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   align-items: center;
-  padding: 2px 40px;
-  margin-left: 250px;
+  padding: 2px 30px;
+  margin-left: 260px;
   background: #e33078;
   color: #fff;
   cursor: pointer;
@@ -142,11 +145,18 @@ label.name,
 .btn:hover {
   background: #734079;
 }
+.form_inner h6 {
+  text-align: center;
+  font-size: 16px;
+  text-rendering: auto;
+  font-style: italic;
+  text-shadow: #f2f2f2;
+
+  padding-bottom: 10px;
+  color: #734079;
+}
 .gender {
   color: #e33078;
   margin-top: 10px;
   align-items: center;
-}
-radio {
-  color: #714079;
 }
